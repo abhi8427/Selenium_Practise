@@ -24,12 +24,12 @@ public class FirstTest {
 		  driver.findElement(By.id("adduser")).click();
 		  driver.findElement(By.id("data")).clear();
 		 
-		/*
-		 * Thread.sleep(1000); driver.findElement(By.id("data")).click();
-		 * driver.findElement(By.id("data")).sendKeys("Shashi Sharma");
-		 * driver.findElement(By.id("adduser")).click();
-		 * driver.findElement(By.id("data")).clear();
-		 */
+		
+		  Thread.sleep(1000); driver.findElement(By.id("data")).click();
+		  driver.findElement(By.id("data")).sendKeys("Shashi Sharma");
+		  driver.findElement(By.id("adduser")).click();
+		  driver.findElement(By.id("data")).clear();
+		 
 		
 		//driver.close();
 		
