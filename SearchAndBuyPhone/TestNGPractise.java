@@ -19,7 +19,7 @@ public class TestNGPractise {
 	
 	@org.testng.annotations.BeforeMethod
 	public void BeforeMethod() {
-		//System.out.println("Browser Launch");
+		System.out.println("Browser Launch");
 	}
 	
 	@org.testng.annotations.AfterMethod
